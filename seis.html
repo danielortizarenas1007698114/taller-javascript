@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ejercicio numero 6</h1>
+
+    <script>
+    var n = prompt("ingrese cantidad");
+    var may = 0, men = 0;
+    for (i = 0;i<n;i++){
+        var p = prompt("ingrese peso en kg");
+        if (p > 80){
+            may++;
+        }else{
+            men++;
+        }
+    }
+    document.write("mayores de 80kg hay: "+may);
+    document.write("      menores de 80kg hay: "+men);
+    
+    </script>
+</body>
+</html>

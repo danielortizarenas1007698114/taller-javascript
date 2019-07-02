@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>punto 8</h1>
+
+
+
+    <script>
+        var m = 0, h = 0 ;
+    for (i = 0;i<=10;i++){
+        n = prompt("ingrese el nombre");
+        s = prompt("ingrese sueldo");
+        x = prompt("inrese sexo (1)femenino, (2)masculino")
+        
+        if ( x == 1 && s < 500 ){
+            m++;
+        }
+        if ( x == 2 && s > 400 ){
+            h++;
+        }
+    }
+    document.write("mujeres que ganan mas de 500 hay: "+m);
+    document.write("    hombres que ganan menos de 400 hay: "+h);
+    
+    </script>
+</body>
+</html>
